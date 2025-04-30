@@ -17,6 +17,11 @@ This project implements **Denoising Diffusion Probabilistic Models (DDPMs)** to 
 
 Generative modeling refers to creating new data that looks like the existing data. We use a **diffusion model** to generate handwritten digits. These models are known for producing high-quality outputs while being more stable during training than GANs.
 
+To get started install requirements.txt
+```shell script
+!pip install -r requirements.txt
+```
+
 ### Key Concepts
 - **DDPM**: Adds noise to images step by step, then learns to reverse this process.
 - **U-Net**: A neural network with an encoder-decoder structure, great for image generation.
